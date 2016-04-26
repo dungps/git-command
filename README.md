@@ -47,7 +47,7 @@ git tag -d <tag_name>
 git push <origin> :refs/tags/<tag_name>
 ```
 
-- Revert to old commit
+## Revert to old commit
 ```
 git reset --hard <commit>
 git reset --soft HEAD@{1}
