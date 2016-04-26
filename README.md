@@ -1,18 +1,18 @@
 # Git Commands
 
-1. Clone a Repository
+## Clone a Repository
 ```
 git clone <git url>
 ```
 
-2. Clone a Repository with branch
+## Clone a Repository with branch
 ```
 git clone <git url> -b <branch name>
 ```
 
-3. Update change to repository
+## Update change to repository
 
-- Add new file
+1. Add new file
 
 ```
 git add
@@ -20,34 +20,34 @@ git add
 		--all            add all new file
 ```
 
-- Commit change
+2. Commit change
 
 ```
 git commit -m <message> <file_path>       commit file change
 git commit -am <message>                  commit all file change
 ```
 
-- Push to repository
+3. Push to repository
 
 ```
 git push <origin> <branch>
 ```
 
-4. Git Tags
+## Git Tags
 
-- Create new tag
+1. Create new tag
 ```
 git tag <tab_name>
 git push --tags
 ```
 
-- Remove tag
+2. Remove tag
 ```
 git tag -d <tag_name>
 git push <origin> :refs/tags/<tag_name>
 ```
 
-5. Revert to old commit
+3. Revert to old commit
 ```
 git reset --hard <commit>
 git reset --soft HEAD@{1}
