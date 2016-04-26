@@ -12,7 +12,7 @@ git clone <git url> -b <branch name>
 
 ## Update change to repository
 
-1. Add new file
+- Add new file
 
 ```
 git add
@@ -20,14 +20,14 @@ git add
 		--all            add all new file
 ```
 
-2. Commit change
+- Commit change
 
 ```
 git commit -m <message> <file_path>       commit file change
 git commit -am <message>                  commit all file change
 ```
 
-3. Push to repository
+- Push to repository
 
 ```
 git push <origin> <branch>
@@ -35,19 +35,19 @@ git push <origin> <branch>
 
 ## Git Tags
 
-1. Create new tag
+- Create new tag
 ```
 git tag <tab_name>
 git push --tags
 ```
 
-2. Remove tag
+- Remove tag
 ```
 git tag -d <tag_name>
 git push <origin> :refs/tags/<tag_name>
 ```
 
-3. Revert to old commit
+- Revert to old commit
 ```
 git reset --hard <commit>
 git reset --soft HEAD@{1}
